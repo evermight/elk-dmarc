@@ -153,6 +153,7 @@ services:
 
   parser:
     build:
+      context: ./
       dockerfile: ./parser/dockerfile
     volumes:
       - ./parser:/parser
