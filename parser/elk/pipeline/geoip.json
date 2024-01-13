@@ -1,0 +1,10 @@
+{
+  "description" : "Add geoip info to RowSourceIp",
+  "processors" : [
+    {
+      "geoip" : {
+        "field" : "RowSourceIp"
+      }
+    }
+  ]
+}

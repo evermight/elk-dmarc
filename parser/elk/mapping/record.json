@@ -1,0 +1,98 @@
+{
+  "properties": {
+    "Version": {
+      "type": "keyword"
+    },
+    "ReportOrgName": {
+      "type": "keyword"
+    },
+    "ReportEmail": {
+      "type": "keyword"
+    },
+    "ReportExtraContactInfo": {
+      "type": "keyword"
+    },
+    "ReportId": {
+      "type": "keyword"
+    },
+    "ReportDateBegin": {
+      "type": "date",
+      "format": "epoch_second"
+    },
+    "ReportDateEnd": {
+      "type": "date",
+      "format": "epoch_second"
+    },
+    "PolicyPublishedDomain": {
+      "type": "keyword"
+    },
+    "PolicyPublishedADkim": {
+      "type": "keyword"
+    },
+    "PolicyPublishedSpf": {
+      "type": "keyword"
+    },
+    "PolicyPublishedP": {
+      "type": "keyword"
+    },
+    "PolicyPublishedSP": {
+      "type": "keyword"
+    },
+    "PolicyPublishedNP": {
+      "type": "keyword"
+    },
+    "PolicyPublishedPCT": {
+      "type": "keyword"
+    },
+    "PolicyPublishedFO": {
+      "type": "keyword"
+    },
+    "IdentifiersHeaderFrom": {
+      "type": "keyword"
+    },
+    "RowSourceIp": {
+      "type": "ip"
+    },
+    "RowCount": {
+      "type": "integer"
+    },
+    "RowPEDisposition": {
+      "type": "keyword"
+    },
+    "RowPEDkim": {
+      "type": "keyword"
+    },
+    "RowPESpf": {
+      "type": "keyword"
+    },
+    "AuthResultDkimDomain": {
+      "type": "keyword"
+    },
+    "AuthResultDkimSelector": {
+      "type": "keyword"
+    },
+    "AuthResultDkimResult": {
+      "type": "keyword"
+    },
+    "AuthResultDkimScope": {
+      "type": "keyword"
+    },
+    "AuthResultSpfDomain": {
+      "type": "keyword"
+    },
+    "AuthResultSpfSelector": {
+      "type": "keyword"
+    },
+    "AuthResultSpfResult": {
+      "type": "keyword"
+    },
+    "AuthResultSpfScope": {
+      "type": "keyword"
+    },
+    "geoip": {
+      "properties": {
+        "location": { "type": "geo_point" }
+      }
+    }
+  }
+}

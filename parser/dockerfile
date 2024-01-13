@@ -1,0 +1,7 @@
+FROM golang:1.21
+
+WORKDIR /parser
+
+RUN apt-get update && apt-get install -y zip vim
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]

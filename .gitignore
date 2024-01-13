@@ -1,0 +1,7 @@
+.env
+parser/.env
+parser/logs/ingest/*
+parser/logs/zipped/*
+parser/output/*.json
+reset-docker.sh
+reset-data.sh
