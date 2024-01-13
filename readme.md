@@ -1,3 +1,10 @@
+# Introduction
+
+This project is explained by these videos:
+
+1. Demonstration: TBD
+2. Explanation: TBD
+3. SPF/DKIM/DMARC Tutorial: TBD
 
 # Installation
 
@@ -13,3 +20,5 @@ Assume the `~/` reflects your project directory, meaning the same directory as t
 8. Login with `elastic` and the password found in the `~/.env` file to ensure the entire ELK stack is up and running.
 9. Type `docker exec -it dmarc-parser-1 ./start.sh` to extract, transform and load DMARC aggregation data into your ELK stack.
 10. Go to your web browser in Kibana and go to Dashboards to see your DMARC Dashboard.
+
+![Screenshot](screenshot.png "DMARC Dashboard")
