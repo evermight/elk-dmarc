@@ -3,7 +3,7 @@
 This project is explained by these videos:
 
 1. Demonstration: https://www.youtube.com/watch?v=XLTaKeJhI7c
-2. Explanation: TBD
+2. Explanation: https://www.youtube.com/watch?v=Fg3yAPe5y90
 3. SPF/DKIM/DMARC Tutorial: TBD
 
 # Installation
