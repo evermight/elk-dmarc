@@ -21,7 +21,7 @@ Assume the `~/` reflects your project directory, meaning the same directory as t
 ## Ingest Data
 7. Make a copy of `~/parser/env.sample` to `~/parser/.env`.  Optional - customize settings for better security.
 8. Put all your zipped DMARC aggregation reports into the `~/parser/logs/zipped/`.  Sample DMARC aggregration reports can be copied from `~/parser/logs/zipped-sample/`.  The zipped DMARC reports should end with any of the following filename extensions: `*.gz` or `*.zip`.
-9. Type `docker exec -it dmarc-parser-1 ./start.sh` to extract, transform and load DMARC aggregation data into your ELK stack.
+9. Type `docker exec -it dmarc_parser_1 ./start.sh` to extract, transform and load DMARC aggregation data into your ELK stack.
 10. Go to your web browser in Kibana and go to Dashboards to see your DMARC Dashboard.
 
 ![Screenshot](screenshot.png "DMARC Dashboard")
